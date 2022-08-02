@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    /* border: 1px solid white; */
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    justify-content: space-between;
+}
+.header>div:nth-child(1){
+    display: flex;
+    width: 16%;
+    /* border: 1px solid red; */
+}
+.header>div:nth-child(1)>div:nth-child(1){
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(142, 142, 140);
+}
+.header>div:nth-child(1)>div:nth-child(2){
+    /* border: 1px solid lime; */
+    width: 45%;
+    background-color: #333;
+}
+.header>div:nth-child(1)>div:nth-child(1)>img{
+    width:125px;
+    height: 30px;
+    /* margin-top: 10px; */
+}
+.header>div:nth-child(1)>div:nth-child(2)>button{
+    color:rgb(179, 175, 175);
+    font-size: 16.9px;
+    font-weight: 400;
+    height: 56px;
+    text-align: center;
+    border: none;
+    background-color: rgb(56, 55, 55);
+    width: 136px;
+    /* border: 1px solid red; */
+}
+.header>div:nth-child(2){
+  display: flex;
+  width: 15%;
+  
+}
+.header>div:nth-child(2)>div:nth-child(1){
+width: 20%;
+    border-left:1px solid rgb(88, 86, 86);
+}
+.header>div:nth-child(2)>div:nth-child(1)>button{
+    width: 100%;
+    height: 100%;
+    font-size: 34px;
+    border: none;
+    background-color: #333;
+    color: rgb(149, 148, 148);
+}
+.header>div:nth-child(2)>div:nth-child(2){
+    width: 20%;
+    border-left:1px solid rgb(88, 86, 86);
+}
+.header>div:nth-child(2)>div:nth-child(2)>button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 36px;
+    background-color: #333;
+    color: rgb(149, 148, 148);
+    }
+.header>div:nth-child(2)>div:nth-child(3){
+    width: 20%;  
+    border-left:1px solid rgb(88, 86, 86);      
+}
+.header>div:nth-child(2)>div:nth-child(3)>button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #333;
+    font-size: 36px;
+    color: rgb(149, 148, 148);
+}
+.header>div:nth-child(2)>div:nth-child(4){
+    width: 20%;
+    border-left:1px solid rgb(88, 86, 86);
+}
+.header>div:nth-child(2)>div:nth-child(4)>button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 36px;
+    background-color: #333;
+    color: rgb(149, 148, 148);
+}
+.header>div:nth-child(2)>div:nth-child(5){
+    width: 20%;              
+    border-left:1px solid rgb(88, 86, 86);
+}
+.header>div:nth-child(2)>div:nth-child(5)>button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 35px;
+    background-color: #333;
+    color: rgb(149, 148, 148);
+}
+.header>div:nth-child(2)>div>button:hover{
+    color: white;
+}
+.header>div:nth-child(2)>div:nth-child(4)>button:hover{
+    color: white;
+    background-color: rgb(99, 163, 4);
+    cursor: pointer;
+}
+.header-2{
+    background-color: black;
+    height: 60px;
+    width:100%
+}
+.header-2>div{
+    display: flex;
+    color: white;
+    width:25%;
+    /* border: 1px solid white; */
+    justify-content: space-evenly;  
+}
+.header-2>div>img{
+     height: 18px;
+     width: 28px;
+     margin-top: 22px;
+     margin-left: 145px;
+}
+.header-2>div>p{
+    display: flex;
+    color: white;
+    width:25%;
+    justify-content: space-evenly; 
+    margin-top: 22px; 
+}
+#cars{
+    background-color: black;
+    color: white;
+    margin-left: -13px;
+    margin-top: 22px; 
+    border: none;
+    width: 15%;
+    font-weight: 600;
+}
+.inside-box{
+    margin-left: 65%;
+    margin-top: -40px;
+}
+.inside-box>p{
+    font-weight: 400;
+}
+.header-3{
+    display: flex;
+    position: sticky;
+    top:6%; 
+    height: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: white;
+}
+.header-3>div{
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    margin-top: 20px;
+}
+.header-3>div:nth-child(1){
+    font-size:33px;
+    font-weight: 700;
+    color: rgb(70, 70, 70);
+}
+.header-3>div:nth-child(2){
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.631);
+    
+}
+.header-3>div:nth-child(3)>input{
+    border-radius: 25px;
+}
+.header-3>div>p>button{
+    width: 125px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(5, 131, 214);
+    font-size: 20px;
+    color: white;
+    margin-top: -30px;
+}
